@@ -20,7 +20,39 @@
 
       <div id="inputs">
         <!--
-        ya borré todo el texto que no va en el HTML NOOBS 4EVR-->
+        <div id="estado">
+         <select class="selector" name="estado">
+            <option value="" disabled selected>Selecciona tu estado</option>
+          </select>
+        </div>
+
+        <div id="rubro">
+          <select class="selector" name="rubro">
+            <option value="" disabled selected>Selecciona el rubro</option>
+          </select>
+        </div>
+
+        <div id="sexo">
+          <div class="sexo">
+            <div class="sexo_txt">
+              Hombre
+            </div>
+            <div class="radio_input">
+              <input type="radio" name="sexo" value="H">
+            </div>
+          </div>
+          <div class="sexo">
+            <div class="sexo_txt">
+              Mujer
+            </div>
+            <div class="radio_input">
+              <input type="radio" name="sexo" value="M" >
+            </div>
+          </div>
+        </div>
+        <div id="submit_container">
+          <button type="submit" name="button" id="enviar">Enviar</button>
+        </div>-->
       </div>
 
     </div>
@@ -30,7 +62,14 @@
     </div>
 
     <div id="result">
-      <div id="">
+      <div id="estado_result" class="txt_result">
+        <p>Estado</p>
+      </div>
+      <div id="rubro_result" class="txt_result">
+        <p>Rubro</p>
+      </div>
+      <div id="sexo_result" class="txt_result">
+        <p>Sexo</p>
       </div>
     </div>
   </div>

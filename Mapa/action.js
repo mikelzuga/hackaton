@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// aqui falta el comentario de Julio
-=======
-//comment Julio
->>>>>>> a1d789366ea3600aba7e40fc0c09726cbf485657
+
 function envio(){
 var cadena1=[];
 var cadena2=[];
@@ -105,8 +101,12 @@ var select="";
               "</div>"+
             "</div>"+
             "<div id='submit_container'>"+
-              "<button type='submit' name='button' id='enviar'>Enviar</button>"+
+              "<button type='submit' name='button' id='enviar'>Enviar</button> onclick='div_color'"+
             "</div>";
 
 document.getElementById('inputs').innerHTML = select;
+}
+
+function div_color (){
+  
 }
