@@ -106,15 +106,3 @@ var select="";
 
 document.getElementById('inputs').innerHTML = select;
 }
-
-
-
-
-function actualizar(){
-var x="";
-var y="";
-    //  x=document.getElementById("Idestados").value;
-    //  y=document.getElementById("Idrubros").value;
-      suma=x+y;
-      return suma;
-}
