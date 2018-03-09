@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+#imghead{
+  height: 370px;
+  background-image: url("../books.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.headder{
+  height: 70px;
+  margin: 0px;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  background-color: transparent;
+  display: flex;
+  align-content: center;
+}
+
+.navbar{
+  width: 960px;
+  margin: 0px auto;
+  padding: 8px 0px;
+}
+
+#gr{
+  height: 40px;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+}
+
+.signin{
+  margin: 0px 10px 0px 0px;
+}
+
+.containertopbody{
+  width: 960px;
+  margin: 20px auto 0px auto;
+}
+
+.logininput{
+  width: 120px;
+  height: 25px;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 5px;
+  font-size: 13px;
+  padding-left: 5px;
+  margin-top: 10px
+}
+
+.txtgray{
+  font-size: 12px;
+  color: rgba(0,0,0,.4);
+  font-weight: 500;
+  padding-left: 1px;
+}
+
+.btn-brown{
+  background-color: rgba(102, 51, 0, 1);
+}
+
+.btn-ylw{
+  background-color: rgba(255, 204, 0, 1);
+  margin-top: 5px;
+}
+
+.slogan{
+height: 280px;
+padding: 0px;
+display: flex;
+justify-content: center;
+}
+
+.slogantxt{
+  width: 420px;
+  font-size: 60px;
+  color: rgba(125, 85, 70, .8);
+  font-family:"Acme";
+  -webkit-text-stroke: 1px rgba(0,0,0,.3);
+  text-align: center;
+  line-height: 60px;
+  margin-top: 30px;
+}
+
+.signup{
+  height: 280px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newaccount{
+  width: 280px;
+}
+
+.signupinput{
+  width: 280px;
+  height: 35px;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 3px;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+.signupterms{
+  margin-top: 5px;
+  width: 170px;
+  font-size: 9px;
+  color: rgba(0,0,0,.7);
+  line-height: 14px;
+}
+
+.submitcontainer{
+  display: flex;
+  justify-content:space-between;
+}
+
+h2{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h4{
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+h5{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+
+#signinsocialmedia{
+  height: 50px;
+  width: 280px;
+  background: rgb(47,47,47);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+#leftcontainer{
+  display: flex;
+
+}
+
+#signinsocialmediatext{
+  color: white;
+  text-align: center;
+}
+
+.socialmediaicons{
+  width: 120px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.socialmediaicon{
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  margin: 0px 3px;
+}
+
+.mainbody{
+  width: 960px;
+  margin: 0px auto;
+  padding: 15px 0px;
+}
+
+#leftcontainer{
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#rightcontainer{
+  padding: 0px 10px;
+}
+
+.mainbodtxt{
+  text-align: justify;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+#midleftcontainer{
+  height: 150px;
+  display: flex;
+}
+
+.midleft{
+  width: 50%;
+  height: 130px;
+  margin: 10px 0px;
+
+}
+
+#discoverbooks{
+  width: 100%;
+  height: 433px;
+  background: rgba(255,204,153,.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bookdiscoverycontainer{
+  height: 170px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  display: flex;
+}
+
+.discoverysource{
+  width: 360px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+h6{
+  width: 100%;
+  height: 15px;
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.d-bookcover{
+  height: 110px;
+  width: 80px;
+  margin: 5px 5px;
+  background: gray;
+}
+
+.booktaggs{
+  height: 110px;
+  width: 100px;
+  margin: 5px 5px;
+  font-size: 13px;
+  font-weight: 450;
+}
+
+#arrow{
+  width: 30px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discoveryresult{
+  width: 200px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.leftsubcontainer{
+  margin-top: 20px;
+}
+
+#searchinputcontainer{
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#searchinput{
+  width: 270px;
+  height: 27px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 0px;
+  background-color: transparent;
+}
+
+.searchcategorycontainer{
+display: flex;
+}
+
+.searchcategory{
+  width: 25%;
+  height: 170px;
+  margin-top: 10px;
+  color: rgba(51,82,101,.8);
+}
+
+p{
+  margin:2px 5px;
+  font-size: 13px;
+}
+
+#quotecontainer{
+  display: flex;
+}
+
+#quote{
+  width: 60%;
+  display: flex;
+  flex-flow: wrap;
+}
+
+#quoteimage{
+  width: 75px;
+  height: 90px;
+  background: gray;
+}
+
+#quotetxtcontainer{
+  font-size: 16px;
+  width: 270px;
+  margin: 0px 10px;
+}
+
+#quotecategory{
+  width: 40%;
+  color: rgba(51,82,101,.8);
+}
+
+.dealtextcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.deallink{
+  color: rgba(51,82,101,.8);
+  font-size: 12px;
+}
+
+.dealbook{
+  margin: 20px 5px;
+}
+
+.dealbookcover{
+  height: 170px;
+  width: 130px;
+  margin: 5px 5px;
+  background: gray;
+}
+
+.add{
+  height: 250px;
+  background-color: grey;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#profileimages{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+#profiletxt{
+  height: 30px;
+  width: 100%;
+}
+
+.profileimg{
+  width: 48px;
+  height: 65px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px 0px;
+}
+
+#sponsoredbooks{
+  height: 380px;
+  background: rgba(255,204,153,.2);
+  display: flex;
+  flex-flow: column;
+}
+
+#sponsoredtxt{
+  margin: 10px 5px 5px 5px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.sponsoredbook{
+  height: 130px;
+  margin: 10px 10px;
+  display: flex;
+}
+
+.s-bookcovercontainer{
+  height: 130px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.s-bookcover{
+  width: 60px;
+  height: 90px;
+  background: gray;
+}
+
+.s-booktxt{
+  margin-left: 10px;
+}
+
+#morebooks{
+  width: 105px;
+  margin: 10px 10px;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 13px;
+}
